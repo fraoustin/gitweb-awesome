@@ -1,0 +1,142 @@
+body {
+    font-family: Roboto, sans-serif !important;
+    font-size: medium !important;
+    border: none !important;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.title, div.page_header, a.title, a.title:hover, div.page_footer, tr.dark, table.blame .dark:hover, tr.light, table.blame .light:hover {
+    background-color: white !important;
+}
+
+
+div.page_header {
+    padding: 8px !important;
+}
+
+table.project_list td, table.shortlog td {
+    padding-bottom: 10px !important;
+}
+
+.hundred, table.project_list , table.shortlog, table.tags, table.heads {
+    width: 100%;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.title-header {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+span.comment, span.comment a {
+    color: grey !important;
+    font-style: italic !important;
+    padding-left: 10px;
+}
+
+td.current_head {
+    text-decoration: none !important;
+}
+
+div.index_include {
+    border-style: none !important;
+}
+
+td#download, td#code {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 0px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none !important;
+}
+
+a:link, a:visited {
+    color: black !important;
+}
+
+a:hover, a:active {
+    color: red !important;
+}
+
+a.rss_logo, span.refs span.head, span.refs span.tag, span.refs span {
+    border-style: none !important;
+    border-color: white !important;
+    background-color: white !important;
+}
+
+
+span.head, span.refs, span.tag {
+    float: right;
+}
+
+span.refs span.head, span.refs span.tag, span.refs span {
+    font-size: medium !important;
+    font-style: italic;
+}
+
+div.page_nav table {
+    width: 100%;
+}
+
+div.page_nav table tr td {
+    text-align: center;
+}
+
+i.fa {
+    padding-right: 5px;
+}
+
+.blue, a.blue {
+    color: blue !important;
+}
+
+
+.orange, a.orange {
+    color: orange !important;
+}
+
+.green, a.green {
+    color: green !important;
+}
+
+.purple, a.purple {
+    color: purple !important;
+}
+
+.blue, a.blue {
+    color: blue !important;
+}
+
+.right {
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+
+.drop {
+    background:orange;
+    border-radius:50%;
+    width: 40px;
+    height:40px;
+    border:2px solid orange; 
+}
+
+.small {
+    font-size: small !important;
+}
+
+@media (max-width: 640px) {
+    body {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
+
